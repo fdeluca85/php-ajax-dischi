@@ -1,4 +1,4 @@
-const app = new VUE({
+const app = new Vue({
   el: '#app',
   data: {
     albums: [],
@@ -8,6 +8,7 @@ const app = new VUE({
       .get('http://localhost/php-ajax-dischi/backend.php')
       .then((response) => {
         console.log(response);
+        this.albums = response.data;
       });
   },
 });

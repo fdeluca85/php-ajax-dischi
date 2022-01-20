@@ -11,7 +11,10 @@
 <body>
     <div id="app">
         <ul>
-            <li></li>
+            <li v-for="album in albums">
+                {{album.title}}
+                {{album.author}}
+            </li>
         </ul>
 
     </div>
