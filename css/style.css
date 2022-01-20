@@ -1,0 +1,62 @@
+/*--------------
+    RESET
+--------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------
+      COMMONS
+  -----------*/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1e2d3b;
+}
+.container {
+  margin: 0 auto;
+  width: 90vw;
+  /* max-width: 1600px; */
+  background-color: #1e2d3b;
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: #2e3a46;
+  height: 80px;
+  margin-bottom: 2em;
+}
+header img {
+  height: 50px;
+  margin: 20px;
+}
+/*--------------
+      TYPO
+  --------------*/
+h2 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px auto;
+}
+h3 {
+  color: #79796f;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+  width: 300px;
+  background-color: #2e3a46;
+  text-align: center;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
